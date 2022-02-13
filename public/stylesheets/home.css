@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://res.cloudinary.com/dql0dw6en/image/upload/v1644606997/YelpCamp/Camply_Background_rai1du.jpg");
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+.cover-container {
+  max-width: 60vw;
+}
+
+.nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 1rem;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link.active {
+  color: white;
+  border-bottom-color: white;
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+  color: #333;
+  text-shadow: none;
+}
+
+.SiteHeader {
+  color: #d4674c;
+  font-weight: 700;
+}
+
+.HomeButton:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.HomeButton:hover {
+  color: #171b25;
+  background-color: #d4674c !important;
+  border-color: #d4674c !important;
+}
+
+.WelcomeParagraph {
+  font-weight: 400;
+}
